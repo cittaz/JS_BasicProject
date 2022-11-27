@@ -25,6 +25,9 @@ html, body {
   justify-content: space-between;
   align-items: center;
   transition: transform .15s;
+  h1 {
+    cursor: pointer;
+  }
   img {
     padding: 0px 3px;
   }
@@ -62,6 +65,7 @@ html, body {
 
 
 button {
+  cursor: pointer;
   align-items: center;
   appearance: none;
   background-color: #FCFCFD;
@@ -103,7 +107,6 @@ button {
   bottom: 5%;
   left: 50%;
   transform: translatex(-50%);
-  cursor: pointer;
 
   &:hover {
     transform: translateX(-50%);

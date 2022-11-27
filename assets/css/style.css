@@ -27,6 +27,9 @@ html, body {
   align-items: center;
   transition: transform 0.15s;
 }
+.nav h1 {
+  cursor: pointer;
+}
 .nav img {
   padding: 0px 3px;
 }
@@ -61,6 +64,7 @@ html, body {
 }
 
 button {
+  cursor: pointer;
   align-items: center;
   appearance: none;
   background-color: #FCFCFD;
@@ -100,7 +104,6 @@ button:active {
   bottom: 5%;
   left: 50%;
   transform: translatex(-50%);
-  cursor: pointer;
 }
 #reset:hover {
   transform: translateX(-50%);
