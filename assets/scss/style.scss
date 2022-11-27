@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: rgb(101,146,253);
+  background: linear-gradient(90deg, rgba(101,146,253,1) 0%, rgba(140,97,255,1) 48%, rgba(68,194,253,1) 100%);
+}
+html, body {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  min-height: 100vh;
+}
+
+.nav {
+  width: 100%;
+  height: 10vh;
+  background-color: #343090;
+  font-family: "JetBrains Mono",monospace;
+  color: white;
+  padding: 0px 2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform .15s;
+  img {
+    padding: 0px 3px;
+  }
+  img:hover {
+    transform: scale(105%);
+  }
+}
+
+#container {
+  background: #353090b2;
+  backdrop-filter: blur(20PX);
+  box-shadow: rgba(110, 110, 110, 0.8) 0px 3px 6px 0px;
+  border-radius: 20px;
+  font-size: 70px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+  margin: 20vh 20vw;
+}
+
+#valueContainer { 
+  color: white;
+  background-color: #6592fd;
+  font-family: "JetBrains Mono",monospace;
+  width: 40%;
+  height: 30%;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+button {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  color: #36395A;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  display: inline-flex;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: left;
+  transition: box-shadow .15s,transform .15s, border-radius .35s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+
+  &:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    border-radius: 18px;
+  }
+
+  &:active {
+    transform: translatey(3%);
+    box-shadow: #D6D6E7 0 3px 7px inset;
+  }
+}
+
+#reset {
+  font-size: 28px;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translatex(-50%);
+  cursor: pointer;
+
+  &:hover {
+    transform: translateX(-50%);
+  }
+
+  &:active {
+    transform: translate(-48%, 2%);
+  }
+}
+
+#increase, #decrease {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    margin: 20vh 8vw;
+  }
+}
