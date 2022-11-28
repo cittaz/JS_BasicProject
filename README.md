@@ -1,4 +1,4 @@
-# Read Me Template
+# JS useless counter
 
 ![Project Image](https://github.com/cittaz/JS_BasicProject/blob/master/assets/img/counter.gif)
 
