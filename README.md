@@ -1,6 +1,6 @@
 # Read Me Template
 
-![Project Image](project-image-url)
+![Project Image](https://github.com/cittaz/JS_BasicProject/blob/master/assets/img/counter.gif)
 
 > https://uselessjscounter.netlify.app
 
@@ -21,7 +21,7 @@ Thii is my first approach at JS programming, a simple counter fully implemented 
 
 ## Author Info
 
-- LinkedIn - [@jamesqquick](https://www.linkedin.com/in/tommasocittadino/)
+- LinkedIn - (https://www.linkedin.com/in/tommasocittadino/)
 - Website - [Tommaso Cittadino](https://cittaz.github.io)
 
 [Back To The Top](#read-me-template)
