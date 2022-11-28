@@ -7,7 +7,6 @@ function createNode(tag, id, content) {
 }
 
 //Create and append html elements
-
 const container = createNode('div', 'container', ''); //create container
 document.body.append(container);
 
@@ -24,7 +23,7 @@ const reset = createNode('button', 'reset', 'reset'); //create reset button
 container.append(reset);
 
 
-
+//increase or decrease by 1 the value of the valueContainer
 function changeValue(event) {
   switch(event.target.id){
     case 'increase':
@@ -39,6 +38,7 @@ function changeValue(event) {
   }
 }
 
+//change the color of the value if <0
 function changeColor() {
   if(valueContainer.innerHTML >= 0) {valueContainer.style.color = ''}
   else {valueContainer.style.color = 'red'};
