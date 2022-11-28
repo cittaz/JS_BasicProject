@@ -21,7 +21,7 @@ Thii is my first approach at JS programming, a simple counter fully implemented 
 
 ## Author Info
 
-- LinkedIn - (https://www.linkedin.com/in/tommasocittadino/)
-- Website - [Tommaso Cittadino](https://cittaz.github.io)
+- LinkedIn - [Tommaso Cittadino](https://www.linkedin.com/in/tommasocittadino/)
+- Website - [Portfolio](https://cittaz.github.io)
 
 [Back To The Top](#read-me-template)
